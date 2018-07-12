@@ -46,7 +46,7 @@ print('MSE:', sklearn.metrics.mean_squared_error(y, preds))
 print('mae:', sklearn.metrics.mean_absolute_error(y, preds))
 
 error = [preds[i] - y[i] for i in range(len(preds))]
-print('errors:', error)
+# print('errors:', error)
 
 plt.figure(1)
 plt.hist(error, normed=True, bins=104)
