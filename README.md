@@ -6,8 +6,4 @@ See full paper: https://danielfrentzel.github.io/static/MLSSpaper.pdf
 
 Immediatley after cloning the repository, data_analysis.py can be ran to recreate the .png graphs based on the existing .pkl files.
 
-If MillionSongSubset has been downloaded an placed in song-year-predictions-msd, The following python files can be ran to recreate all project files:
-get_h5_files.py
-load_dataframe.py
-data_analysis.py
-msd_csv.py
+If MillionSongSubset has been downloaded an placed in song-year-predictions-msd, The following python files can be ran to recreate all project files: get_h5_files.py, load_dataframe.py, data_analysis.py, msd_csv.py
