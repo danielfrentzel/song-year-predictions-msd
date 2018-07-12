@@ -217,7 +217,7 @@ for i in range(len(tracks)):
 
 df = pd.DataFrame(track_info)
 
-df.to_pickle('./pkl/song_data.pkl')
+# df.to_pickle('./pkl/song_data.pkl')  # only using song_data_trimmed.pkl
 
 # pickle only tracks that have all fields
 df_trimmed = pd.DataFrame(track_info_trimmed)
